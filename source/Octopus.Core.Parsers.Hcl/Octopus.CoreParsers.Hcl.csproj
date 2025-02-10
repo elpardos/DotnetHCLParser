@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>Octopus.CoreParsers.Hcl</AssemblyName>
     <RootNamespace>Octopus.Core.Parsers.Hcl</RootNamespace>
@@ -17,6 +17,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Description>Provides a way to parse and reprint HCL templates using the Sprache library.</Description>
     <Product>Octopus.CoreParsers.Hcl</Product>
+    <LangVersion>12</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
